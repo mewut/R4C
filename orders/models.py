@@ -1,6 +1,7 @@
 from django.db import models
 
 from customers.models import Customer
+from robots.models import Robot
 
 
 class Order(models.Model):
